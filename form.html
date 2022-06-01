@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Biodata Form</title>
+   </head>
+	
+   <body>
+      <h1>Biodata Form</h1>
+	  <form action="results2.html" method="GET">
+	  <div>
+		<label for="name">Name</label>
+		<input type="text" name="name" id="name" placeholder="username"
+		required>
+	  </div>
+	  <div>
+		<label>
+			Password
+			<input type="password" name="password" placeholder="password"
+			required>
+		</label>
+	  </div>
+	  <div>
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" placeholder="Email" 
+		required>
+	  </div>
+	  <div>
+		<label for="date">Birthdate</label>
+		<input type="date" name="date" id="date" min="1980-01-01" max="2006-01-01"
+		required>
+	  </div>
+	  <div>
+		<label for="radio">Gender</label>
+		<input type="radio" name="Gender" id="male" value="male">Male
+		<input type="radio" name="Gender" id="female" value="female">Female
+	  </div>
+	  <div>
+	  <label for="Major">Major</label>
+		<select>
+			<option>IT</option>
+			<option>ITE</option>
+			<option>DCM</option>
+		</select>
+	  </div>
+	  <div>
+	  <label for="Semester">Semester</label>
+		<select>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+		</select>
+	  </div>
+	  
+	  <button type="reset">Reset</button>
+	  <button type="submit">Submit</button>
+     </form>
+   </body>
+	
+</html>
